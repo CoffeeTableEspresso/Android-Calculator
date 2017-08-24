@@ -17,3 +17,4 @@ show off your mad skills (e.g. trig functions, hex calculator, exp functions, et
 - added extra function atan2(First Input, Second Input), max, min.
 - added extra operation exponentiation.
 - assumed that Toast.makeText should be used for displaying all results and errors.
+- was a bit unclear about the instructions to put answer in second activity, but made a functional app.
