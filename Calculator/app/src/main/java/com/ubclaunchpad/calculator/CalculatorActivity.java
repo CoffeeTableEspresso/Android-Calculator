@@ -20,9 +20,11 @@ public class CalculatorActivity extends AppCompatActivity implements View.OnClic
         findViewById(R.id.operation_sub).setOnClickListener(this);
         findViewById(R.id.operation_multi).setOnClickListener(this);
         findViewById(R.id.operation_div).setOnClickListener(this);
-        findViewById(R.id.operation_exp).setOnClickListener(this);
-        findViewById(R.id.operation_log).setOnClickListener(this);
+        findViewById(R.id.operation_max).setOnClickListener(this);
+        findViewById(R.id.operation_min).setOnClickListener(this);
         findViewById(R.id.operation_atan2).setOnClickListener(this);
+        findViewById(R.id.operation_exp).setOnClickListener(this);
+
     }
 
     /**
@@ -79,15 +81,25 @@ public class CalculatorActivity extends AppCompatActivity implements View.OnClic
                 //TODO divide function
                 break;
             }
-            case R.id.operation_exp:
+            case R.id.operation_max:
             {
-                result = Math.pow(first, second);
-                //TODO exponent function
+                result = Math.max(first, second);
+                break;
+            }
+            case R.id.operation_min:
+            {
+                result = Math.min(first, second);
                 break;
             }
             case R.id.operation_atan2:
             {
                 result = Math.atan2(first, second);
+                break;
+            }
+            case R.id.operation_exp:
+            {
+                result = Math.pow(first, second);
+                //TODO exponent function
                 break;
             }
             //TODO any extra implmentations (optional)

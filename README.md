@@ -14,5 +14,6 @@ show off your mad skills (e.g. trig functions, hex calculator, exp functions, et
 - altered layout slightly, for purely cosmetic reasons. 
 - assumed desired precision was double.
 - assumed order First Input - Second Input for subtraction, and same order for all other operators.
-- added extra function atan2(First Input, Second Input), and extra operation exponentiation.
+- added extra function atan2(First Input, Second Input), max, min.
+- added extra operation exponentiation.
 - assumed that Toast.makeText should be used for displaying all results and errors.
