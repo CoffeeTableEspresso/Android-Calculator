@@ -62,26 +62,29 @@
         android:layout_below="@id/SimpleCalcLayout"
         android:layout_marginTop="20dp"
         android:orientation="horizontal">
-        <TextView
+        <!--<TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Extra functions:"/>
+            android:text="Extra functions:"/>-->
         <Button
-            android:id="@+id/operation_extra1"
+            android:id="@+id/operation_exp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="func1"/>
+            android:text="^"/>
         <Button
-            android:id="@+id/operation_extra2"
+            android:id="@+id/operation_log"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="func2"/>
+            android:text="log"/>
+        <!--Button
+            android:id="@+id/operation_cos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cos"/> -->
         <Button
-            android:id="@+id/operation_extra3"
+            android:id="@+id/operation_atan2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="func3"/>
-
-
+            android:text="atan2"/>
     </LinearLayout>
 </RelativeLayout>
