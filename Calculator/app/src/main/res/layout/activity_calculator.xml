@@ -20,6 +20,7 @@
             android:id="@+id/firstInput"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:inputType="number"
             android:hint="First Input"/>
         <LinearLayout
             android:id="@+id/operationLayout"
@@ -53,6 +54,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
+            android:inputType="number"
             android:hint="Second Input"/>
     </LinearLayout>
     <LinearLayout
